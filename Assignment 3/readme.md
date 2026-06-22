@@ -49,20 +49,3 @@ The multi-index DataFrame output from `.groupby(['Month', 'Region']).agg(...)` i
 
 ---
 
-## Overall Reflection
-
-These two assignments together tell a coherent story of progression in data skills:
-
-| Dimension | Assignment 1 | Assignment 3 |
-|---|---|---|
-| **Data handling** | Manual CSV I/O and parsing | pandas `read_csv`, type coercion, missing value imputation |
-| **Aggregation** | Dictionary loops from scratch | `.groupby()` and `.agg()` |
-| **Sorting** | Lambda with `sorted()` | Lambda with `sorted()` and pandas `.sort_values()` |
-| **Output** | Print statements and text file | DataFrames and visualisations |
-| **Insight layer** | Computed statistics | Visual patterns with written analysis |
-
-The most lasting lesson is that data analysis is not just about producing correct numbers — it is about asking the right questions, choosing the right representation, and communicating findings clearly. Writing the summary in Part 3 of Assignment 3 reinforced that the final step of any analysis is always translation: turning output into meaning.
-
-Working as a group also added a collaborative dimension. Dividing tasks by section and then reviewing each other's code and written summaries improved the quality of the final submission and gave me experience in reading and understanding code written by others — a skill just as important as writing it myself.
-
----
